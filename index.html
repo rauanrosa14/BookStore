@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/solid.min.css" integrity="sha512-6/gTF62BJ06BajySRzTm7i8N2ZZ6StspU9uVWDdoBiuuNu5rs1a8VwiJ7skCz2BcvhpipLKfFerXkuzs+npeKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/regular.min.css" integrity="sha512-sWLOh8QiEOmwfP3jd0n7AneUOa6XKif5g8GU8FqdFMIbr6rYBt1PKWBp/Wv4E6PQ6N9lFtVAndujl9HbniDTog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bookly</title>
+</head>
+<body>
+    <header>
+        <h1><i class="fa-solid fa-book"></i>Bookly</h1>
+        <div class="search">
+            <input type="search" id="input-search" placeholder="Haryy poter ...">
+            <label for="input-search"><i class="fa-solid fa-magnifying-glass"></i></label>    
+        </div>
+        <span class="icons">
+            <i class="fa-solid fa-bars screen800px menu-icon"></i>
+            <i class="fa-solid fa-magnifying-glass screen800px menu-search-mobile"></i>
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-user admin-icon"></i>
+        </span>
+    </header>
+    <nav class="menu menu-mobile nav">
+        <ul>
+            <li><a href="#home">HOME</a></li> 
+            <li><a href="#home">HOME</a></li> 
+            <li><a href="#home">HOME</a></li> 
+            <li><a href="#home">HOME</a></li> 
+            <li><a href="#home">HOME</a></li> 
+        </ul>  
+    </nav>
+    <nav class="menu-search nav">
+        <input type="search"  placeholder="Haryy poter ...">
+        <label ><i class="fa-solid fa-magnifying-glass"></i></label> 
+    </nav>
+    <div class="menu admin nav">
+        <i class="fa-solid fa-user"></i>      
+        <input type="text" name="user" id="user" placeholder="Digite seu nome de usuario"> 
+        <input type="password" name="password" id="password" placeholder="Digite sua senha "> 
+        <button class="btn">Login</button>
+    </div>
+    <section id="home" class="home">
+        <div class="mensage">
+            <h1>Upto 75% Off</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="shelf">
+            <div class="shelf-slide">
+                <img class="shelf-book"  src="image/book-1.png">
+                <img class="shelf-book"  src="image/book-2.png">
+                <img class="shelf-book"  src="image/book-3.png">
+                <img class="shelf-book"  src="image/book-4.png">
+                <img class="shelf-book"  src="image/book-5.png">
+                <img class="shelf-book"  src="image/book-6.png">
+                <img class="shelf-book"  src="image/book-7.png">
+                <img class="shelf-book"  src="image/book-8.png">
+                <img class="shelf-book"  src="image/book-9.png">
+                <img class="shelf-book"  src="image/book-10.png">
+            </div>
+            <img id="stand" src="image/stand.png">
+        </div>
+    </section>
+    <section class="content">
+        <div class="detail">
+            <i class="fa-solid fa-truck-fast"></i>
+            <span>
+                <h1>Free shipping</h1>
+                <p>Order over $100 </p>
+            </span>
+        </div>
+        <div class="detail">
+            <i class="fa-solid fa-truck-fast"></i>
+            <span>
+                <h1>Free shipping</h1>
+                <p>Order over $100 </p>
+            </span>
+        </div>
+        <div class="detail">
+            <i class="fa-solid fa-truck-fast"></i>
+            <span>
+                <h1>Free shipping</h1>
+                <p>Order over $100 </p>
+            </span>
+        </div>
+        <div class="detail">
+            <i class="fa-solid fa-truck-fast"></i>
+            <span>
+                <h1>Free shipping</h1>
+                <p>Order over $100 </p>
+            </span>
+        </div>
+    </section>
+    <section class="featured">
+        <h1 class="title-section">Featured Books</h1>
+        <div class="books">
+            <div class="book">
+                <span class="bg"></span>
+                <img src="image/book-1.png">
+                <h1>Featured Books</h1>
+                <h4 class="price">$15,99<del><sub>$29,99</sub></del></h4>
+                <button class="btn">Add to car</button>
+            </div>
+            <div class="book">
+                <span class="bg"></span>
+                <img src="image/book-2.png">
+                <h1>Featured Books</h1>
+                <h4 class="price">$15,99<del><sub>$29,99</sub></del></h4>
+                <button class="btn">Add to car</button>
+            </div>
+            <div class="book">
+                <span class="bg"></span>
+                <img src="image/book-3.png">
+                <h1>Featured Books</h1>
+                <h4 class="price">$15,99<del><sub>$29,99</sub></del></h4>
+                <button class="btn">Add to car</button>
+            </div>
+            <div class="book">
+                <span class="bg"></span>
+                <img src="image/book-4.png">
+                <h1>Featured Books</h1>
+                <h4 class="price">$15,99<del><sub>$29,99</sub></del></h4>
+                <button class="btn">Add to car</button>
+            </div>
+            <div class="book">
+                <span class="bg"></span>
+                <img src="image/book-5.png">
+                <h1>Featured Books</h1>
+                <h4 class="price">$15,99<del><sub>$29,99</sub></del></h4>
+                <button class="btn">Add to car</button>
+            </div>
+            <div class="book">
+                <span class="bg"></span>
+                <img src="image/book-6.png">
+                <h1>Featured Books</h1>
+                <h4 class="price">$15,99<del><sub>$29,99</sub></del></h4>
+                <button class="btn">Add to car</button>
+            </div>
+            <div class="book">
+                <span class="bg"></span>
+                <img src="image/book-7.png">
+                <h1>Featured Books</h1>
+                <h4 class="price">$15,99<del><sub>$29,99</sub></del></h4>
+                <button class="btn">Add to car</button>
+            </div>
+            <div class="book">
+                <span class="bg"></span>
+                <img src="image/book-8.png">
+                <h1>Featured Books</h1>
+                <h4 class="price">$15,99<del><sub>$29,99</sub></del></h4>
+                <button class="btn">Add to car</button>
+            </div>
+            <div class="book">
+                <span class="bg"></span>
+                <img src="image/book-9.png">
+                <h1>Featured Books</h1>
+                <h4 class="price">$15,99<del><sub>$29,99</sub></del></h4>
+                <button class="btn">Add to car</button>
+            </div>
+            <div class="book">
+                <span class="bg"></span>
+                <img src="image/book-10.png">
+                <h1>Featured Books</h1>
+                <h4 class="price">$15,99<del><sub>$29,99</sub></del></h4>
+                <button class="btn">Add to car</button>
+            </div>
+        </div>
+    </section>
+    <section class="subscribe">
+        <div>
+            <h1>Subscribe for Latest Updates</h1>
+            <input type="email" name="email" placeholder="  enter your email">
+            <button type="submit" class="btn">Subscribe</button>
+        </div>
+    </section>
+    <section class="arrivals">
+        <h1 style="font-size:2rem;line-height:3;" class="title-section">New Arrivals</h1>
+        <div class="content">
+            <div class="details">
+                <div>
+                    <img src="image/book-1.png">
+                    <div>
+                        <h1>New arrivals</h1>
+                        <h1>$15,99<sub><del>$20,99</del></sub></h1>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="details">
+                <div>
+                    <img src="image/book-2.png">
+                    <div>
+                        <h1>New arrivals</h1>
+                        <h1>$15,99<sub><del>$20,99</del></sub></h1>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="details">
+                <div>
+                    <img src="image/book-3.png">
+                    <div>
+                        <h1>New arrivals</h1>
+                        <h1>$15,99<sub><del>$20,99</del></sub></h1>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="details">
+                <div>
+                    <img src="image/book-4.png">
+                    <div>
+                        <h1>New arrivals</h1>
+                        <h1>$15,99<sub><del>$20,99</del></sub></h1>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="details">
+                <div>
+                    <img src="image/book-5.png">
+                    <div>
+                        <h1>New arrivals</h1>
+                        <h1>$15,99<sub><del>$20,99</del></sub></h1>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="details">
+                <div>
+                    <img src="image/book-6.png">
+                    <div>
+                        <h1>New arrivals</h1>
+                        <h1>$15,99<sub><del>$20,99</del></sub></h1>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="promo">
+        <div>
+            <h3>Deal of the day</h3>
+            <h1>Promotion</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+            <button class="btn">Buy Now</button>
+        </div>
+        <img src="image/deal-img.jpg">
+    </section>
+    <section class="reviews">
+        <h1 style="font-size:2rem;line-height: 1;" class="title-section">Client´s Reviews</h1>
+        <div class="customers">
+            <div class="custome">
+                <img src="image/pic-1.png">
+                <h1>Jonh Demon</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+            </div>
+            <div class="custome">
+                <img src="image/pic-2.png">
+                <h1>Sabrina</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+            </div>
+            <div class="custome">
+                <img src="image/pic-4.png">
+                <h1>Zara</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+            </div>
+        </div>
+    </section>
+    <h1 class="title-section">Our Blogs</h1>
+    <section class="blogs">
+        <div class="blog">
+            <img src="image/blog-1.jpg">
+            <h1>blog titles goes here</h1>
+            <p>Lorem input  dolor sit amet, consectetur adipiscing elit </p>
+            <button class="btn">Read more</button>
+        </div>
+        <div class="blog">
+            <img src="image/blog-2.jpg">
+            <h1>blog titles goes here</h1>
+            <p>Lorem input  dolor sit amet, consectetur adipiscing elit </p>
+            <button class="btn">Read more</button>
+        </div>
+        <div class="blog">
+            <img src="image/blog-3.jpg">
+            <h1>blog titles goes here</h1>
+            <p>Lorem input  dolor sit amet, consectetur adipiscing elit </p>
+            <button class="btn">Read more</button>
+        </div>
+    </section>
+    <section class="links">
+        <div>
+            <h1>Our Location</h1>
+            <span>
+                <h3><i class="fa-solid fa-location-dot"></i> Country</h3>
+                <h3><i class="fa-solid fa-location-dot"></i> Country</h3>
+                <h3><i class="fa-solid fa-location-dot"></i> Country</h3>
+                <h3><i class="fa-solid fa-location-dot"></i> Country</h3>
+                <h3><i class="fa-solid fa-location-dot"></i> Country</h3>
+            </span>
+        </div>
+        <div>
+            <h1>Quick links</h1>
+            <span>
+                <h3> Home </h3>
+                <h3>Shelf</h3>
+                <h3>Books</h3>
+                <h3>More</h3>
+                <h3>More</h3>
+                <h3>More</h3>
+            </span>
+        </div>
+        <div>
+            <h1>Contact</h1>
+            <span>
+                <h3><i class="fa-solid fa-phone"></i> 132 453-3685</h3>
+                <h3><i class="fa-solid fa-phone"></i> 837 023-3685</h3>
+                <h3><i class="fa-solid fa-envelope"></i>  book@gmail.com</h3>
+            </span>
+        </div>
+    </section>
+    <footer>
+        <span>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </span>
+        <h1>Developer by Rauan / All right Reserved</h1>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/shelfbook.js"></script>
+    <script>
+        Slidebook();
+    </script>
+</body>
+</html>
